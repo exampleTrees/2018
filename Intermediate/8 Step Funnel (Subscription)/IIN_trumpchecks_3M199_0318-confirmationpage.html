@@ -1,0 +1,1201 @@
+<html>
+<head>
+
+    <meta http-equiv="PRAGMA" content="NO-CACHE" />
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
+    <meta http-equiv="EXPIRES" content="NOW" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://d13p2xj50zkyqm.cloudfront.net/scripts/test/orderformtest.css">
+   
+</head>
+<body>
+<!-- RDP Over write styles -->
+
+  <style>
+.pubName {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    color: #00303C;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+  		.headline-wrapper h1 {
+  			font-family: 'Teko', sans-serif;
+  			text-transform: uppercase;
+  			font-size: 3.8rem;
+  			margin-top: 0px;
+  			line-height: 4rem;
+  			margin-bottom: -3px;
+  		}
+
+  		h2 {
+  			font-family: 'Patua One', cursive;
+  			text-align: center;
+  			font-size: 1.8rem;
+        padding-left: 25px;
+        padding-right: 25px;
+  		}
+    h4 {
+      font-family: 'Georgia', Times, serif;
+      font-size: 2.2em;
+      text-align: center;
+      font-weight: 600;
+      padding-top: 1em;
+    }
+
+    h2 {
+      margin-bottom: 1em;
+    }
+
+    body {
+      background-color: #eae7e4;
+      font-family: Arial !important;
+      background-image: none;
+    }
+    .left{
+      display: block;
+      float: left;
+      clear: both;
+    }
+    div.formwrapper {
+      margin-top: 0;
+      box-shadow: none;
+      border: none;
+      border-radius: 0;
+      max-width: 85em;
+      width: 100%;
+      background: none;
+    }
+
+    .top {
+      width: 100%;
+    }
+
+    .logo {
+      width: 30em;
+      margin-top: 4em;
+      display: inline-block;
+      float: left;
+    }
+
+    .timer {
+      width: 25em;
+      margin: 1% 1% 1% 10%;
+      display: inline-block;
+    }
+
+    .number {
+      width: 25em;
+      margin: 2% 1%;
+      display: inline-block;
+      float: right;
+    }
+
+    .clockbutton {
+      background-color: #333;
+      height: 30px;
+      width: 30px;
+      border: thin solid #000;
+      padding: 7px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+    }
+
+    div.background {
+      background-color: #FFF;
+      margin-top: 8em;
+      margin-bottom: 25px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    div.testimonial {
+      clear: both;
+    }
+
+    div.audio {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      background-color: #FFF;
+      padding-top: 1%;
+    }
+
+    .order_content {
+      background: #FFF;
+    }
+
+    #af_form_wrapper {
+      margin: 0 0 1% 0;
+      border-radius: 0;
+    }
+
+    .listright {
+      border: thin solid black;
+      display: inline-block;
+      width: 45%;
+      float: right;
+      margin: 1% 2%;
+      padding: 1%;
+      -webkit-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+      -moz-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+      box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+    }
+
+    .listright ul {
+      margin: 1.25em 1em 1.25em 2.5em;
+    }
+
+    .listleft {
+      border: thin solid black;
+      display: inline-block;
+      width: 45%;
+      margin: 1% 2%;
+      padding: 1%;
+      -webkit-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+      -moz-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+      box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+    }
+
+    .listleft ul {
+      margin: 1.25em 1em 1.25em 2.5em;
+    }
+
+    .listleft li {
+      margin-top: 2.37em;
+    }
+
+    .list {
+      border: thin solid black;
+      -webkit-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+      -moz-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+      box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+      margin: 5% 5%;
+    }
+
+    .center {
+      text-align: center;
+
+
+      font-size: 1.7em;
+      margin: 2% 10%;
+      font-weight: bold;
+      font-family: Georgia;
+    }
+
+    .test {
+      width: 100%;
+      background: #FFF;
+    }
+
+    .header {
+      display: block;
+      width: 80%;
+      margin: 2em auto;
+    }
+
+    .header h4 {
+      text-align: left;
+      float: right;
+      margin-top: 1.5em;
+      margin-left: 0;
+    }
+
+    .headline-wrapper h1 {
+      margin: 0 auto;
+    }
+
+    .deck {
+      text-align: center;
+      color: #af0a0a;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .indent {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    h3.wait {
+      color: red;
+      font-size: 4rem;
+      padding-top: 25px;
+      margin: 0px !important;
+    }
+
+    /*----------FAQ--------*/
+
+    .moveSection {
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+
+    .faqButton {
+      width: 5%;
+      float: left;
+      margin: 1em;
+      margin-top: -1em;
+    }
+
+    .questionSect:hover {
+      cursor: pointer;
+    }
+
+    .moveSection {
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+
+    .answerSect {
+      display: none;
+      margin: 5em;
+      background-color: #ededed;
+      border: thin solid #202e61;
+      -webkit-box-shadow: inset 1px 1px 24px 0px rgba(50, 50, 50, 0.53);
+      -moz-box-shadow: inset 1px 1px 24px 0px rgba(50, 50, 50, 0.53);
+      box-shadow: inset 1px 1px 24px 0px rgba(50, 50, 50, 0.53);
+    }
+
+    .question {
+      margin-left: 2em;
+    }
+
+    .question p {
+      font-size: 2em;
+    }
+
+    .closeButton {
+      color: #fff;
+      width: 15%;
+      font-size: 1.5em;
+      margin: 0 auto;
+      background-color: darkred;
+      cursor: pointer;
+      padding: 1%
+    }
+
+    @media screen and (max-width:800px) {
+      .logo {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 4em;
+        margin-bottom: -50px;
+        display: block;
+        float: none;
+      }
+      .left{
+        display: block;
+        float: none;
+        clear: both;
+        margin: 0 auto;
+      }
+    } .logo{margin-top: 0px; width: 100%;}
+  </style>
+
+<!-- RDP Over write styles -->
+<!-- Order JS -->
+<script type="text/javascript" src="https://d13p2xj50zkyqm.cloudfront.net/scripts/order.js"></script>
+<script>
+var imprint = 'SFP';
+</script>
+<!-- Order JS -->
+
+  <div class="formwrapper">
+    <div class="top">
+<!-- IIN Logo -->
+ <div class="logo">
+<p class="pubName">Infinite Income</p>
+</div>
+<!-- IIN Logo -->
+    </div>
+        <div class="background" style="padding-top:10px;">
+
+
+<h3>
+    <strong>
+        I want you to go ahead and simply TRY Jonas’ <em>Kinetic Profits</em>
+        service…
+    </strong>
+</h3>
+<h3>
+    <strong>...for </strong>
+    <strong>just $199</strong>
+    <strong>
+        for the
+        <br/>
+        next three months!
+    </strong>
+</h3>
+<p>
+    Not ready for Jonas’ premium level <em>Kinetic Profits </em>just yet?
+</p>
+<p>
+    Even with the full $1,000 discount Jonas is offering, it’s still a lot of
+    money to subscribe, we know…
+</p>
+<p>
+    But the simple fact is this…
+</p>
+<h3>
+    <strong>
+        People Just Like You Are Seeing FORTUNES From <em>Kinetic Profits</em>!
+    </strong>
+</h3>
+<p>
+    I’m going to show you something up front that almost NO OTHER so-called
+    “Gurus” show you.
+</p>
+<p>
+    I’m going to show you Jonas’ track record of closed recommendations since
+    we started it. Warts and all…
+</p>
+<p>
+    Check it out:
+</p>
+<img class="image_center" style="max-width:640px;" src="https://d13p2xj50zkyqm.cloudfront.net/promos/SFP/PUBS/PMT/PMT_ksign_0617/PMT_3199_chart.jpg" />
+<p>
+    If you had placed JUST a measly thousand bucks in each of these
+    recommendations…
+</p>
+<p>
+    You could be cashed out with $30,410 in just two years.
+</p>
+<p>
+    It’s too bad you couldn’t join us for our epic run… it was an absolute
+    blast.
+</p>
+<p>
+    But the beauty is, we’re just getting started. And you now have a chance to
+    join today for a drastically reduced price…
+</p>
+<h3>
+    <strong>
+        I’m offering you to just TRY <em>Kinetic Profits</em> for
+        <br/>
+        Three full months for just $199
+    </strong>
+</h3>
+<p>
+    That’s 90% off the annual fee!
+</p>
+<p>
+    I’m offering this because I know you’re going to love this service.
+</p>
+<p>
+    If you try it for $199 for three months… and you like what you see… simply
+    do nothing and we’ll automatically charge for the balance of the
+    subscription ($1,801) on your three month anniversary.
+</p>
+<p>
+    If you don’t like it, no worries. Call and cancel anytime before the three
+months are up and you won’t be charged another cent for    <em>Kinetic Profits</em>.
+</p>
+<p>
+    As I already mentioned, because of the nature of this service…And
+    considering how much work I have put into it…
+</p>
+<p>
+    I simply can’t offer refunds.
+</p>
+<p>
+    But here’s the thing…
+</p>
+<p>
+    This offer is for you RIGHT NOW, as a new subscriber only.
+</p>
+<p>
+    So if you click out of this page you may never see this three month trial
+    offer again.
+</p>
+<p>
+    Everything else could be at the full price.
+</p>
+<p>
+    Ready to try <em>Kinetic Profits?</em>
+</p>
+<p>
+    Simply click the YES, LET ME TRY Kinetic Profits FOR $199 below and we’ll
+    charge you another $199 for a three month trial of <em>Kinetic Profits</em>
+    .
+</p>
+
+
+
+
+                        <!-- END Enter Order Upsell / Confirmation Copy Here -->
+
+                        <!-- START Upsell Buttons: Delete this section when copying page to confirmation -->
+
+                        <h3 class="upsell_yes continue">
+                            <@upSellEffortLink urlNickname="PMT_trumpchecks_RDP50_0318" choiceCode="3M199" itemNumber="PMT" autoPurchase="true">“YES, UPGRADE MY ACCOUNT”</@upSellEffortLink>
+                        </h3>
+
+                        <!-- END Enter Order Upsell / Confirmation Copy Here -->
+               <@choiceSpecificCopy choiceCode="2YA168" itemNumber="IIN">
+<h3 class="upsell_no">
+			<@upSellEffortLink urlNickname="IIN_trumpchecks_RDP50_0318" choiceCode="2YA168" itemNumber="IIN" autoPurchase="true">No Thank You, Just Take Me to My Confirmation Page</@upSellEffortLink>
+		</h3>
+  </@choiceSpecificCopy>
+ <@choiceSpecificCopy choiceCode="2YA118" itemNumber="IIN">
+<h3 class="upsell_no">
+			<@upSellEffortLink urlNickname="IIN_trumpchecks_RDP50_0318" choiceCode="2YA118" itemNumber="IIN" autoPurchase="true">No Thank You, Just Take Me to My Confirmation Page</@upSellEffortLink>
+		</h3>
+  </@choiceSpecificCopy>
+
+ <@choiceSpecificCopy choiceCode="2YAR88" itemNumber="IIN">
+<h3 class="upsell_no">
+			<@upSellEffortLink urlNickname="IIN_trumpchecks_RDP50_0318" choiceCode="2YAR88" itemNumber="IIN" autoPurchase="true">No Thank You, Just Take Me to My Confirmation Page</@upSellEffortLink>
+		</h3>
+  </@choiceSpecificCopy>
+
+ <@choiceSpecificCopy choiceCode="YAR79" itemNumber="IIN">
+<h3 class="upsell_no">
+			<@upSellEffortLink urlNickname="IIN_trumpchecks_RDP50_0318" choiceCode="YAR79" itemNumber="IIN" autoPurchase="true">No Thank You, Just Take Me to My Confirmation Page</@upSellEffortLink>
+		</h3>
+  </@choiceSpecificCopy>
+
+ <@choiceSpecificCopy choiceCode="250L60" itemNumber="IIN">
+<h3 class="upsell_no">
+			<@upSellEffortLink urlNickname="IIN_trumpchecks_RDP50_0318" choiceCode="250L60" itemNumber="IIN" autoPurchase="true">No Thank You, Just Take Me to My Confirmation Page</@upSellEffortLink>
+		</h3>
+  </@choiceSpecificCopy>
+
+ <@choiceSpecificCopy choiceCode="YAR129" itemNumber="IIN">
+<h3 class="upsell_no">
+			<@upSellEffortLink urlNickname="IIN_trumpchecks_RDP50_0318" choiceCode="YAR129" itemNumber="IIN" autoPurchase="true">No Thank You, Just Take Me to My Confirmation Page</@upSellEffortLink>
+		</h3>
+  </@choiceSpecificCopy>
+
+ <@choiceSpecificCopy choiceCode="EM49" itemNumber="IIN">
+<h3 class="upsell_no">
+			<@upSellEffortLink urlNickname="IIN_trumpchecks_RDP50_0318" choiceCode="EM49" itemNumber="IIN" autoPurchase="true">No Thank You, Just Take Me to My Confirmation Page</@upSellEffortLink>
+		</h3>
+  </@choiceSpecificCopy>                        <!-- END Upsell Buttons: Delete this section when copying page to confirmation -->
+                        <h3 class="upsell_alert">(I know that I may never see this offer again.)</h3>
+                        <div class="autorenew">
+                          <p><strong>Billing Terms:</strong> Once you accept your <strong><em>Kinetic Profits</em></strong> subscription, your credit card will be billed $199 immediately. Then, when your three month trial is over, you’ll be charged $1,801 for the remainder of your year of <strong><em>Kinetic Profits</em></strong> (nine months). After your first year, your card will be charged the full $2,000 annually for your subscription. There are no refunds available on this offer, but you can call any time to cancel your automatic renewals. </p>
+                        </div>
+            <!--====  End Body Section  ====-->
+
+
+      <div class="order_confirm">
+
+
+        <@billingAddressSection>
+
+          <h3>Order Information</h3>
+
+          <p><span class="order_detail">First Name:</span>
+            <@firstName>[-- First Name will be here --]</@firstName>
+          </p>
+          <p><span class="order_detail">Last Name:</span>
+            <@lastName>[-- Last Name will be here --]</@lastName>
+          </p>
+          <p><span class="order_detail">Address 1:</span>
+            <@address1>[-- Address 1 will be here --]</@address1>
+          </p>
+          <@hideIfEmpty formComponent="order" fieldName="addressLine2">
+            <p><span class="order_detail">Address 2:</span>
+              <@address2>[-- Address 2 will be here --]</@address2>
+            </p>
+          </@hideIfEmpty>
+          <@hideIfEmpty formComponent="order" fieldName="addressLine3">
+          </@hideIfEmpty>
+          <p><span class="order_detail">Country:</span>
+            <@country>[-- Country will be here --]</@country>
+          </p>
+          <p><span class="order_detail">Zip/Postal Code:</span>
+            <@postalCode>[-- Zip Code will be here --]</@postalCode>
+          </p>
+          <@selectedStateSection>
+            <p><span class="order_detail">State:</span>
+              <@state>[-- State will be here --]</@state>
+            </p>
+          </@selectedStateSection>
+          <p><span class="order_detail">City:</span>
+            <@city>[-- City will be here --]</@city>
+          </p>
+          <@hideIfEmpty formComponent="order" fieldName="county">
+          </@hideIfEmpty>
+          <@hideIfEmpty formComponent="order" fieldName="companyName">
+          </@hideIfEmpty>
+          <@hideIfEmpty formComponent="order" fieldName="phoneNumber">
+            <p><span class="order_detail">Phone:</span>
+              <@phone>[-- Phone will be here --]</@phone>
+            </p>
+          </@hideIfEmpty>
+          <div class="hidethis">
+            <@hideIfEmpty formComponent="order" fieldName="faxNumber">
+              Fax:
+              <@fax>[-- Fax will be here --]</@fax>
+            </@hideIfEmpty>
+          </div>
+          <p><span class="order_detail">Email: </span>
+            <@email>[-- E-mail will be here --]</@email>
+          </p>
+
+        </@billingAddressSection>
+
+
+
+        <@shippingAddressSection>
+          <h3>Shippping Information</h3>
+
+          <p><span class="order_detail">First Name:</span>
+            <@firstName>[-- First Name will be here --]</@firstName>
+          </p>
+          <p><span class="order_detail">Last Name:</span>
+            <@lastName>[-- Last Name will be here --]</@lastName>
+          </p>
+          <p><span class="order_detail">Address 1:</span>
+            <@address1>[-- Address 1 will be here --]</@address1>
+          </p>
+          <@hideIfEmpty formComponent="order" fieldName="addressLine2">
+            <p><span class="order_detail">Address 2:</span>
+              <@address2>[-- Address 2 will be here --]</@address2>
+            </p>
+          </@hideIfEmpty>
+          <@hideIfEmpty formComponent="order" fieldName="addressLine3">
+          </@hideIfEmpty>
+          <p><span class="order_detail">Country:</span>
+            <@country>[-- Country will be here --]</@country>
+          </p>
+          <p><span class="order_detail">Zip/Postal Code:</span>
+            <@postalCode>[-- Zip Code will be here --]</@postalCode>
+          </p>
+          <@selectedStateSection>
+            <p><span class="order_detail">State:</span>
+              <@state>[-- State will be here --]</@state>
+            </p>
+          </@selectedStateSection>
+          <p><span class="order_detail">City:</span>
+            <@city>[-- City will be here --]</@city>
+          </p>
+          <@hideIfEmpty formComponent="order" fieldName="county">
+          </@hideIfEmpty>
+          <@hideIfEmpty formComponent="order" fieldName="companyName">
+          </@hideIfEmpty>
+          <@hideIfEmpty formComponent="order" fieldName="phoneNumber">
+            <p><span class="order_detail">Phone:</span>
+              <@phone>[-- Phone will be here --]</@phone>
+            </p>
+          </@hideIfEmpty>
+          <div class="hidethis">
+            <@hideIfEmpty formComponent="order" fieldName="faxNumber">
+              Fax:
+              <@fax>[-- Fax will be here --]</@fax>
+            </@hideIfEmpty>
+          </div>
+          <p><span class="order_detail">Email: </span>
+            <@email>[-- E-mail will be here --]</@email>
+          </p>
+
+        </@shippingAddressSection>
+
+
+        <@selectedPaymentOptionSection>
+          <@paymentOption id="4431422" type="Secure Credit Card Online">
+            <div class="hidethis">
+              <@comment>- Payment Option Info if Credit Card Online -</@comment>
+              Payment Option
+              <@paymentOptionDescription>Secure Credit Card Online</@paymentOptionDescription>
+            </div>
+
+            <h3>Credit Card Information</h3>
+            <p><span class="order_detail"><@creditCardType>[-- Credit Card Type will be here --]</@creditCardType>: </span>
+              <@creditCardNumber>[-- XXXXXXX-XX Credit Card Number will be here --]</@creditCardNumber>
+            </p>
+
+            <div class="hidethis">
+          </@paymentOption>
+          <@paymentOption id="4431423" type="Credit Card over the Phone">
+          </@paymentOption>
+          <@paymentOption id="4431424" type="Credit Card via Fax">
+          </@paymentOption>
+          <@paymentOption id="4431425" type="Bill Me">
+            <@comment>- Payment Option Info if Bill Me -</@comment>
+            Payment Option
+
+
+            <@paymentOptionDescription>Bill Me</@paymentOptionDescription>
+
+
+          </@paymentOption>
+          <@paymentOption id="4431426" type="Direct Debit">
+          </@paymentOption>
+          <@paymentOption id="4431427" type="Check">
+          </@paymentOption>
+        </@selectedPaymentOptionSection>
+        </div>
+
+        <p><span class="order_detail">Order Number: </span>
+          <@orderNumber>[-- Order Number will be here --]</@orderNumber>
+        </p>
+        <p><span class="order_detail">Promotion Code: </span>
+          <@promoCode>[-- Promo codes will be here --]</@promoCode>
+        </p>
+
+        <h3>Your Order</h3>
+
+
+        <@selectedChoicesSection><@choice id="4243168">
+        <table class="itemOdd">
+        <tr>
+            <td class="itemCell"> </td>
+            <td class="itemCell">
+                <h3 class="itemName"><@choiceName>Purus mauris</@choiceName></h3>
+
+                <p class="itemDescription">
+                    <@choiceDescription />
+                </p>
+                <p class="itemQuantity">Quantity:
+                    <@choiceQuantity>[-- quantity will be here --]</@choiceQuantity>
+                </p>
+                
+                <@ifSoftDescriptorExists>
+                    <p class="itemDescription"><br><strong>This is how the charge will appear on your credit card:</strong>
+                        <@softDescriptor />
+                    </p>
+                </@ifSoftDescriptorExists>
+                
+                <p class="itemPrice">
+                    <@selectedPricingOptionCurrencySymbol>[--currency symbol--]</@selectedPricingOptionCurrencySymbol>
+                    <@choiceSubtotal>[--price/line subtotal--]</@choiceSubtotal>
+                </p>
+
+                <@userCredentialsSection>
+                <p>
+                    <span class="blockLabel">Username:</span>
+                    <span class="blockData"><@username>[-- Username will be here --]</@username></span><br>
+
+                    <span class="blockLabel">Password:</span>
+                    <span class="blockData"><@password>[-- Password will be here --]</@password></span>
+                </p>
+                </@userCredentialsSection>
+
+            </td>
+        </tr>
+
+        <@selectedShippingOptionSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType"><@shippingOptionName>[-- shipping option will be here --]</@shippingOptionName></h3>
+
+                    <p class="shippingPrice">
+                        <@selectedPricingOptionCurrencySymbol>[--currency--]</@selectedPricingOptionCurrencySymbol>
+                        <@shippingSubtotal>[--shipping subtotal--]</@shippingSubtotal>
+                    </p>
+                </td>
+            </tr>
+        </@selectedShippingOptionSection>
+
+        <@taxSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType">Est. Tax</h3>
+
+                    <p class="shoppingCartShippingLocation">
+                        <@taxLocation>[-- tax location will be here--]</@taxLocation>
+                    </p>
+
+                    <p class="shippingPrice">
+                        <@taxCurrencySymbol>[--currency--]</@taxCurrencySymbol>
+                        <@taxPrice>[--price--]</@taxPrice>
+                    </p>
+                </td>
+            </tr>
+        </@taxSection>
+
+        </table>
+    </@choice><@choice id="4243169">
+        <table class="itemOdd">
+        <tr>
+            <td class="itemCell"> </td>
+            <td class="itemCell">
+                <h3 class="itemName"><@choiceName>Purus mauris</@choiceName></h3>
+
+                <p class="itemDescription">
+                    <@choiceDescription />
+                </p>
+                <p class="itemQuantity">Quantity:
+                    <@choiceQuantity>[-- quantity will be here --]</@choiceQuantity>
+                </p>
+                
+                <@ifSoftDescriptorExists>
+                    <p class="itemDescription"><br><strong>This is how the charge will appear on your credit card:</strong>
+                        <@softDescriptor />
+                    </p>
+                </@ifSoftDescriptorExists>
+                
+                <p class="itemPrice">
+                    <@selectedPricingOptionCurrencySymbol>[--currency symbol--]</@selectedPricingOptionCurrencySymbol>
+                    <@choiceSubtotal>[--price/line subtotal--]</@choiceSubtotal>
+                </p>
+
+                <@userCredentialsSection>
+                <p>
+                    <span class="blockLabel">Username:</span>
+                    <span class="blockData"><@username>[-- Username will be here --]</@username></span><br>
+
+                    <span class="blockLabel">Password:</span>
+                    <span class="blockData"><@password>[-- Password will be here --]</@password></span>
+                </p>
+                </@userCredentialsSection>
+
+            </td>
+        </tr>
+
+        <@selectedShippingOptionSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType"><@shippingOptionName>[-- shipping option will be here --]</@shippingOptionName></h3>
+
+                    <p class="shippingPrice">
+                        <@selectedPricingOptionCurrencySymbol>[--currency--]</@selectedPricingOptionCurrencySymbol>
+                        <@shippingSubtotal>[--shipping subtotal--]</@shippingSubtotal>
+                    </p>
+                </td>
+            </tr>
+        </@selectedShippingOptionSection>
+
+        <@taxSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType">Est. Tax</h3>
+
+                    <p class="shoppingCartShippingLocation">
+                        <@taxLocation>[-- tax location will be here--]</@taxLocation>
+                    </p>
+
+                    <p class="shippingPrice">
+                        <@taxCurrencySymbol>[--currency--]</@taxCurrencySymbol>
+                        <@taxPrice>[--price--]</@taxPrice>
+                    </p>
+                </td>
+            </tr>
+        </@taxSection>
+
+        </table>
+    </@choice><@choice id="4243162">
+        <table class="itemOdd">
+        <tr>
+            <td class="itemCell"> </td>
+            <td class="itemCell">
+                <h3 class="itemName"><@choiceName>Purus mauris</@choiceName></h3>
+
+                <p class="itemDescription">
+                    <@choiceDescription />
+                </p>
+                <p class="itemQuantity">Quantity:
+                    <@choiceQuantity>[-- quantity will be here --]</@choiceQuantity>
+                </p>
+                
+                <@ifSoftDescriptorExists>
+                    <p class="itemDescription"><br><strong>This is how the charge will appear on your credit card:</strong>
+                        <@softDescriptor />
+                    </p>
+                </@ifSoftDescriptorExists>
+                
+                <p class="itemPrice">
+                    <@selectedPricingOptionCurrencySymbol>[--currency symbol--]</@selectedPricingOptionCurrencySymbol>
+                    <@choiceSubtotal>[--price/line subtotal--]</@choiceSubtotal>
+                </p>
+
+                <@userCredentialsSection>
+                <p>
+                    <span class="blockLabel">Username:</span>
+                    <span class="blockData"><@username>[-- Username will be here --]</@username></span><br>
+
+                    <span class="blockLabel">Password:</span>
+                    <span class="blockData"><@password>[-- Password will be here --]</@password></span>
+                </p>
+                </@userCredentialsSection>
+
+            </td>
+        </tr>
+
+        <@selectedShippingOptionSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType"><@shippingOptionName>[-- shipping option will be here --]</@shippingOptionName></h3>
+
+                    <p class="shippingPrice">
+                        <@selectedPricingOptionCurrencySymbol>[--currency--]</@selectedPricingOptionCurrencySymbol>
+                        <@shippingSubtotal>[--shipping subtotal--]</@shippingSubtotal>
+                    </p>
+                </td>
+            </tr>
+        </@selectedShippingOptionSection>
+
+        <@taxSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType">Est. Tax</h3>
+
+                    <p class="shoppingCartShippingLocation">
+                        <@taxLocation>[-- tax location will be here--]</@taxLocation>
+                    </p>
+
+                    <p class="shippingPrice">
+                        <@taxCurrencySymbol>[--currency--]</@taxCurrencySymbol>
+                        <@taxPrice>[--price--]</@taxPrice>
+                    </p>
+                </td>
+            </tr>
+        </@taxSection>
+
+        </table>
+    </@choice><@choice id="4243170">
+        <table class="itemOdd">
+        <tr>
+            <td class="itemCell"> </td>
+            <td class="itemCell">
+                <h3 class="itemName"><@choiceName>Purus mauris</@choiceName></h3>
+
+                <p class="itemDescription">
+                    <@choiceDescription />
+                </p>
+                <p class="itemQuantity">Quantity:
+                    <@choiceQuantity>[-- quantity will be here --]</@choiceQuantity>
+                </p>
+                
+                <@ifSoftDescriptorExists>
+                    <p class="itemDescription"><br><strong>This is how the charge will appear on your credit card:</strong>
+                        <@softDescriptor />
+                    </p>
+                </@ifSoftDescriptorExists>
+                
+                <p class="itemPrice">
+                    <@selectedPricingOptionCurrencySymbol>[--currency symbol--]</@selectedPricingOptionCurrencySymbol>
+                    <@choiceSubtotal>[--price/line subtotal--]</@choiceSubtotal>
+                </p>
+
+                <@userCredentialsSection>
+                <p>
+                    <span class="blockLabel">Username:</span>
+                    <span class="blockData"><@username>[-- Username will be here --]</@username></span><br>
+
+                    <span class="blockLabel">Password:</span>
+                    <span class="blockData"><@password>[-- Password will be here --]</@password></span>
+                </p>
+                </@userCredentialsSection>
+
+            </td>
+        </tr>
+
+        <@selectedShippingOptionSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType"><@shippingOptionName>[-- shipping option will be here --]</@shippingOptionName></h3>
+
+                    <p class="shippingPrice">
+                        <@selectedPricingOptionCurrencySymbol>[--currency--]</@selectedPricingOptionCurrencySymbol>
+                        <@shippingSubtotal>[--shipping subtotal--]</@shippingSubtotal>
+                    </p>
+                </td>
+            </tr>
+        </@selectedShippingOptionSection>
+
+        <@taxSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType">Est. Tax</h3>
+
+                    <p class="shoppingCartShippingLocation">
+                        <@taxLocation>[-- tax location will be here--]</@taxLocation>
+                    </p>
+
+                    <p class="shippingPrice">
+                        <@taxCurrencySymbol>[--currency--]</@taxCurrencySymbol>
+                        <@taxPrice>[--price--]</@taxPrice>
+                    </p>
+                </td>
+            </tr>
+        </@taxSection>
+
+        </table>
+    </@choice><@choice id="4243164">
+        <table class="itemOdd">
+        <tr>
+            <td class="itemCell"> </td>
+            <td class="itemCell">
+                <h3 class="itemName"><@choiceName>Purus mauris</@choiceName></h3>
+
+                <p class="itemDescription">
+                    <@choiceDescription />
+                </p>
+                <p class="itemQuantity">Quantity:
+                    <@choiceQuantity>[-- quantity will be here --]</@choiceQuantity>
+                </p>
+                
+                <@ifSoftDescriptorExists>
+                    <p class="itemDescription"><br><strong>This is how the charge will appear on your credit card:</strong>
+                        <@softDescriptor />
+                    </p>
+                </@ifSoftDescriptorExists>
+                
+                <p class="itemPrice">
+                    <@selectedPricingOptionCurrencySymbol>[--currency symbol--]</@selectedPricingOptionCurrencySymbol>
+                    <@choiceSubtotal>[--price/line subtotal--]</@choiceSubtotal>
+                </p>
+
+                <@userCredentialsSection>
+                <p>
+                    <span class="blockLabel">Username:</span>
+                    <span class="blockData"><@username>[-- Username will be here --]</@username></span><br>
+
+                    <span class="blockLabel">Password:</span>
+                    <span class="blockData"><@password>[-- Password will be here --]</@password></span>
+                </p>
+                </@userCredentialsSection>
+
+            </td>
+        </tr>
+
+        <@selectedShippingOptionSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType"><@shippingOptionName>[-- shipping option will be here --]</@shippingOptionName></h3>
+
+                    <p class="shippingPrice">
+                        <@selectedPricingOptionCurrencySymbol>[--currency--]</@selectedPricingOptionCurrencySymbol>
+                        <@shippingSubtotal>[--shipping subtotal--]</@shippingSubtotal>
+                    </p>
+                </td>
+            </tr>
+        </@selectedShippingOptionSection>
+
+        <@taxSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType">Est. Tax</h3>
+
+                    <p class="shoppingCartShippingLocation">
+                        <@taxLocation>[-- tax location will be here--]</@taxLocation>
+                    </p>
+
+                    <p class="shippingPrice">
+                        <@taxCurrencySymbol>[--currency--]</@taxCurrencySymbol>
+                        <@taxPrice>[--price--]</@taxPrice>
+                    </p>
+                </td>
+            </tr>
+        </@taxSection>
+
+        </table>
+    </@choice><@choice id="4243166">
+        <table class="itemOdd">
+        <tr>
+            <td class="itemCell"> </td>
+            <td class="itemCell">
+                <h3 class="itemName"><@choiceName>Purus mauris</@choiceName></h3>
+
+                <p class="itemDescription">
+                    <@choiceDescription />
+                </p>
+                <p class="itemQuantity">Quantity:
+                    <@choiceQuantity>[-- quantity will be here --]</@choiceQuantity>
+                </p>
+                
+                <@ifSoftDescriptorExists>
+                    <p class="itemDescription"><br><strong>This is how the charge will appear on your credit card:</strong>
+                        <@softDescriptor />
+                    </p>
+                </@ifSoftDescriptorExists>
+                
+                <p class="itemPrice">
+                    <@selectedPricingOptionCurrencySymbol>[--currency symbol--]</@selectedPricingOptionCurrencySymbol>
+                    <@choiceSubtotal>[--price/line subtotal--]</@choiceSubtotal>
+                </p>
+
+                <@userCredentialsSection>
+                <p>
+                    <span class="blockLabel">Username:</span>
+                    <span class="blockData"><@username>[-- Username will be here --]</@username></span><br>
+
+                    <span class="blockLabel">Password:</span>
+                    <span class="blockData"><@password>[-- Password will be here --]</@password></span>
+                </p>
+                </@userCredentialsSection>
+
+            </td>
+        </tr>
+
+        <@selectedShippingOptionSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType"><@shippingOptionName>[-- shipping option will be here --]</@shippingOptionName></h3>
+
+                    <p class="shippingPrice">
+                        <@selectedPricingOptionCurrencySymbol>[--currency--]</@selectedPricingOptionCurrencySymbol>
+                        <@shippingSubtotal>[--shipping subtotal--]</@shippingSubtotal>
+                    </p>
+                </td>
+            </tr>
+        </@selectedShippingOptionSection>
+
+        <@taxSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType">Est. Tax</h3>
+
+                    <p class="shoppingCartShippingLocation">
+                        <@taxLocation>[-- tax location will be here--]</@taxLocation>
+                    </p>
+
+                    <p class="shippingPrice">
+                        <@taxCurrencySymbol>[--currency--]</@taxCurrencySymbol>
+                        <@taxPrice>[--price--]</@taxPrice>
+                    </p>
+                </td>
+            </tr>
+        </@taxSection>
+
+        </table>
+    </@choice><@choice id="4243167">
+        <table class="itemOdd">
+        <tr>
+            <td class="itemCell"> </td>
+            <td class="itemCell">
+                <h3 class="itemName"><@choiceName>Purus mauris</@choiceName></h3>
+
+                <p class="itemDescription">
+                    <@choiceDescription />
+                </p>
+                <p class="itemQuantity">Quantity:
+                    <@choiceQuantity>[-- quantity will be here --]</@choiceQuantity>
+                </p>
+                
+                <@ifSoftDescriptorExists>
+                    <p class="itemDescription"><br><strong>This is how the charge will appear on your credit card:</strong>
+                        <@softDescriptor />
+                    </p>
+                </@ifSoftDescriptorExists>
+                
+                <p class="itemPrice">
+                    <@selectedPricingOptionCurrencySymbol>[--currency symbol--]</@selectedPricingOptionCurrencySymbol>
+                    <@choiceSubtotal>[--price/line subtotal--]</@choiceSubtotal>
+                </p>
+
+                <@userCredentialsSection>
+                <p>
+                    <span class="blockLabel">Username:</span>
+                    <span class="blockData"><@username>[-- Username will be here --]</@username></span><br>
+
+                    <span class="blockLabel">Password:</span>
+                    <span class="blockData"><@password>[-- Password will be here --]</@password></span>
+                </p>
+                </@userCredentialsSection>
+
+            </td>
+        </tr>
+
+        <@selectedShippingOptionSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType"><@shippingOptionName>[-- shipping option will be here --]</@shippingOptionName></h3>
+
+                    <p class="shippingPrice">
+                        <@selectedPricingOptionCurrencySymbol>[--currency--]</@selectedPricingOptionCurrencySymbol>
+                        <@shippingSubtotal>[--shipping subtotal--]</@shippingSubtotal>
+                    </p>
+                </td>
+            </tr>
+        </@selectedShippingOptionSection>
+
+        <@taxSection>
+            <tr>
+                <td class="shippingCell"></td>
+                <td class="shippingCell">
+                    <h3 class="shoppingCartShippingType">Est. Tax</h3>
+
+                    <p class="shoppingCartShippingLocation">
+                        <@taxLocation>[-- tax location will be here--]</@taxLocation>
+                    </p>
+
+                    <p class="shippingPrice">
+                        <@taxCurrencySymbol>[--currency--]</@taxCurrencySymbol>
+                        <@taxPrice>[--price--]</@taxPrice>
+                    </p>
+                </td>
+            </tr>
+        </@taxSection>
+
+        </table>
+    </@choice>
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+        </@selectedChoicesSection>
+        <div class="autorenewright">
+
+        </div>
+
+        <h3>Subtotal: <@orderTotalCurrencySymbol>[--currency--]</@orderTotalCurrencySymbol> <@orderTotal>[-- price--]</@orderTotal></h3>
+      </div>
+      <div class="clear" style: "padding-bottom:1%;"></div>
+    </div>
+
+</body>
+</html>
