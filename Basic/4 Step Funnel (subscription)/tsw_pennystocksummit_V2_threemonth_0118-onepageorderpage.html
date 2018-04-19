@@ -1,0 +1,1201 @@
+<html>
+<head>
+    <meta http-equiv="PRAGMA" content="NO-CACHE" />
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
+    <meta http-equiv="EXPIRES" content="NOW" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://d13p2xj50zkyqm.cloudfront.net/scripts/test/orderformtest.css">
+    <style>
+        body {
+            background: #315689;
+        }
+
+        div.contentwrapper {
+            margin-top: 0;
+            box-shadow: none;
+            border: none;
+            border-radius: 0;
+            max-width: 100em;
+            width: 100%;
+            background: none;
+        }
+
+        .top {
+            width: 100%;
+        }
+
+        .logo {
+            width: 25em;
+            margin-top: 4em;
+            display: inline-block;
+            float: left;
+        }
+
+        .timer {
+            width: 25em;
+            margin: 1% 1% 1% 10%;
+            display: inline-block;
+        }
+
+        .number {
+            width: 25em;
+            margin: 2% 1%;
+            display: inline-block;
+            float: right;
+        }
+
+        .clockbutton {
+            background-color: #333;
+            height: 30px;
+            width: 30px;
+            border: thin solid #000;
+            padding: 7px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+        }
+
+        div.background {
+            background-color: #FFF;
+            margin-top: 1em;
+        }
+
+        div.testimonial {
+            clear: both;
+        }
+
+        div.audio {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            background-color: #DADBDD;
+            padding-top: 1%;
+        }
+
+        .order_content {
+            background: #FFF;
+        }
+
+        #af_form_wrapper {
+            margin: 0 0 1% 0;
+            border-radius: 0;
+        }
+
+        .listright {
+            border: thin solid black;
+            display: inline-block;
+            width: 45%;
+            float: right;
+            margin: 1% 2%;
+            padding: 1%;
+            -webkit-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+            -moz-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+            box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+        }
+
+        .listright ul {
+            margin: 1.25em 1em 1.25em 2.5em;
+        }
+
+        .listleft {
+            border: thin solid black;
+            display: inline-block;
+            width: 45%;
+            margin: 1% 2%;
+            padding: 1%;
+            -webkit-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+            -moz-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+            box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+        }
+
+        .listleft ul {
+            margin: 1.25em 1em 1.25em 2.5em;
+        }
+
+        .listleft li {
+            margin-top: 2.37em;
+        }
+
+        .list {
+            border: thin solid black;
+            -webkit-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+            -moz-box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+            box-shadow: 8px 8px 24px 0px rgba(50, 50, 50, 0.60);
+            margin: 5% 5%;
+        }
+
+        .test {
+            width: 100%;
+            background: #FFF;
+        }
+
+        .center {
+            text-align: center;
+
+            padding-bottom: 1%;
+            font-size: 1.7em;
+            margin: 2% 10%;
+            font-weight: bold;
+            font-family: Georgia;
+        }
+
+        .question p {
+            text-align: left;
+            font-weight: bold;
+            font-size: 2.5em;
+        }
+
+        .question {
+            margin-top: 1em;
+            cursor: pointer;
+        }
+
+        .area1 {
+            max-width: 70em;
+            width: 100%;
+            border: thin solid black;
+            margin: 2% auto;
+            padding: 1%;
+            -webkit-box-shadow: 4px 4px 17px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow: 4px 4px 17px 0px rgba(50, 50, 50, 0.75);
+            box-shadow: 4px 4px 17px 0px rgba(50, 50, 50, 0.75);
+        }
+
+        .interest {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .bord {
+            border-bottom: medium dotted #DDD;
+            width: 98%;
+            margin: 0 auto;
+        }
+
+        .left {
+            float: left;
+            padding: 0 1em 0 2em;
+        }
+
+        .clickh {
+            text-decoration: underline;
+            color: #0000EE;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        h3 {
+            text-transform: capitalize;
+        }
+
+        .clickh {
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            cursor: pointer;
+        }
+        .bpdate{display:none;}
+         /*----------============= FAQ  =============--------*/
+
+        .moveSection {
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+
+        .faqButton {
+            width: 5%;
+            float: left;
+            margin: 1em;
+            margin-top: -1em;
+        }
+
+        .questionSect:hover {
+            cursor: pointer;
+        }
+
+        .moveSection {
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+
+        .answerSect {
+            display: none;
+            margin: 5em;
+            background-color: #ededed;
+            border: thin solid #202e61;
+            -webkit-box-shadow: inset 1px 1px 24px 0px rgba(50, 50, 50, 0.53);
+            -moz-box-shadow: inset 1px 1px 24px 0px rgba(50, 50, 50, 0.53);
+            box-shadow: inset 1px 1px 24px 0px rgba(50, 50, 50, 0.53);
+        }
+
+        .question {
+            margin-left: 2em;
+        }
+
+        .question p {
+            font-size: 2em;
+        }
+
+        .closeButton {
+            color: #fff;
+            width: 15%;
+            font-size: 1.5em;
+            margin: 0 auto;
+            background-color: darkred;
+            cursor: pointer;
+            padding: 1%;
+        }
+
+        h4 {
+            font-family: 'Georgia', 'Times', serif;
+            margin: 1.5em 1.25em;
+            font-weight: 700;
+            font-size: 2em;
+        }
+
+        .clickArea p {
+            font-weight: bold;
+        }
+
+        .answerSect {
+            background: none;
+            border: none;
+            padding: 1rem;
+            box-shadow: 0 0 10px 2px #CCC;
+        }
+    </style>
+<script type="text/javascript" src="https://d13p2xj50zkyqm.cloudfront.net/scripts/order.js"></script>
+  
+
+
+
+</head>
+<body>
+
+
+<div class="contentwrapper large_wrapper">
+   <div class="top row">
+    <div class="medium-4 columns hide-for-small-only">
+        <div class="logo">
+            <img class="image_center" style="padding-bottom:1%;" src="https://d13p2xj50zkyqm.cloudfront.net/promos/AF/TSW/Assets/tsw_whiteoflogo_0118.png" alt="banner" width="100%">
+        </div>        
+    </div>
+
+    <div class="medium-4 columns hide-for-small-only">
+        <div class="timer">
+            <script>
+            // set the timers end time
+            // miliseconds * minutes
+            var minute_timer_end = 60000 * 15;
+            </script>
+
+           <div id="timerwrap" style="font-size: 12px;text-align: center;line-height: normal;font-weight: bold;color: #FFF;">
+                Time Left to order:
+                <div id="afTimer" style="display:block;margin:0 auto;padding:5px;text-align:center;width:225px;background-color:#333;border:solid 2px #999;">
+                    <script type="text/javascript" src="minute-timer.js"></script>
+                    <h4 id="timeTitle" style="text-align:center;margin:0 auto;margin-bottom:5px;padding:0;font-family:sans-serif;font-size:30px;background-color:#555;color:#EEE;line-height:22px;"><span></span><span>Min.</span><span style="margin-left:35px;">Sec.</span></h4>
+                    <h4 id="countdown" style="text-align:center;margin:0 auto;padding:0;font-family:serif;font-size:30px;background-color:#555;color:#EEE;line-height:22px;"><span id="min" style="margin:0 15px 0 auto;">Minutes</span>:<span id="sec" style="margin-left:15px;">Seconds</span></h4>
+                </div>
+            </div>
+        </div>
+    </div><!-- / medium-4 -->
+
+    <div class="medium-4 columns">
+<div class="number">
+    <a class="tel" href="tel:1-844-748-9693"><img class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos/AF/TSW/Assets/8447489693.jpg" alt="Description" width="100%"></a>
+ </div>     
+
+    </div><!-- / medium-4 -->
+
+</div><!-- top / row -->
+<div class="background">
+
+
+     <div class="order_content">
+                <img class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos/AF/TSW/PennySummit_LiveEvent/TSW_Relead_3Months_PennyStock_0118_Image_0F_FAMSHOT_01.jpg"
+                    alt="Description" width="100%" />
+
+
+
+                   <h3 style="padding-top:1em;"><span class="red">Wait…</span> before you go…</h3>
+                    <h2 style="margin-top:-0.5em;">How about a SNEAK PEEK?</h2>
+
+
+
+
+<p>Dear Reader,</p>
+<p>Tim Sykes here again. </p>
+<p>Why not give me the chance to prove just how valuable my Money Line System research could be to you? </p>
+<p>By acting right now, you’ll get the latest penny stock trade recommendation that could put $1,000s in your pocket… by next week!</p>
+<p>Plus receive 3 months of access to <em>Tim Sykes’ Weekly Fortunes</em> for only <strong>$850</strong>.</p>
+<p>And during that time, you’ll enjoy the full benefits of our service, including:</p>
+<ul class="checkmark">
+    <li>Bi-Weekly commentary on what’s happening in the penny stock world. </li>
+    <li><strong>A New Penny Stock Recommendation EVERY Week</strong>: Every week, Tim Sykes will recommend a new penny stock trade that could make you $3,791…$20,072…and even as much as $69,962. You’ll get 52 plays in a year.</li>
+    <li>FREE first-recommendation email, with the subject line <strong>The Penny Stock that Could Pay You $1,000s by Next Week.</strong></li>
+    <li>FREE <strong>7-video series Retire Rich with Penny Stocks </strong>to help you get started right away.</li>
+    <li><strong>Bonus Gift -</strong> FREE ticket to Tim Sykes’ LIVE Penny Stock Fortunes Event. </li>
+    <li><strong><em>Bonus Gift #2 - A chance to win a check for $12,415. Tim will personally deliver the check to your doorsteps. (No purchase necessary, terms and conditions apply.)</em></strong></li>
+    <li><strong>Urgent Anytime Profit-Taking Alerts</strong> – When it’s finally time to take gains, Tim will blast out an urgent email – telling you exactly what to sell, for what potential gain. It couldn’t be easier.</li>
+    <li><strong>Monthly Portfolio Updates</strong >– Every month, Tim will send you a recap of the open trades and what to do with them.</li>    
+</ul>
+
+
+<h3>Get In Now, or Miss Out Completely</h3>
+<p>Remember, I can only accept 1,000 charter members.</p>
+<p>If you click away from this page, someone else might claim YOUR spot.</p>
+<p>Don’t let that happen. </p>
+<p>By next week alone you could be making $3,791…$20,072…and even as much as $69,962.</p>
+<p>And then you’ll have the chance to do that every week. </p>
+<p>When you fill in the secure order form on this page, you’ll get full subscriber access to everything Sykes’ Weekly Fortunes has to offer.</p>
+<p>Look, as you’ve seen today… several folks just like you are already getting rich from my strategy…</p>
+<p>Some have even become multi-millionaires.</p>
+<p>Don’t miss this opportunity.</p>
+<p>Here’s to your success,</p>
+<p>Tim Sykes <br>
+Founder, Tim Sykes’ Weekly Fortunes 
+</p>
+                    </div>
+
+
+
+
+
+            <div id="af_form_wrapper" class="af_form_wrapper right_column">
+
+
+                <form method="post">
+
+
+
+                    <h2 id="sign" class="step2 form_headline">Step #1: Review <br> Your Order</h2>
+
+
+                    <@choicesSection><@choice id="4101738" class="choice">
+        <label>
+            <div align="left">
+                <h3 class="choiceName">
+                    <@choiceSelectionRadioButton />
+                    <@choiceName>Three Months for Just $850</@choiceName>
+                </h3><div class="hidethis">
+                <p class="choiceDescription">
+                    <@choiceDescription>Three months Of Tim Sykes' Weekly Fortunes at $850, with auto-renew and no-refund. Termcode: 1Q850-TSW</@choiceDescription>
+                </p>
+        
+                    <@choiceAutorenewSection>
+                        <@comment><p class="alertMessage">This section will be suppressed if the choice is not set to autorenew</p></@comment>
+                        <p class="autorenewMessage">
+                            This is an autorenew offer.
+                        </p>
+                        <br>
+                    </@choiceAutorenewSection>
+                    <p class="autorenewMessage">
+                        <strong>The Term</strong> is
+                        <strong><span><@choiceTerm>13</@choiceTerm></span> <span><@choiceTermUnits>months</@choiceTermUnits></span></strong>.
+                    </p>
+                
+        
+                <@choicePremiumsSection>
+                    <div class="premiumMessage">
+                        <h3 class="premiumMessageTitle">You will also receive:</h3>
+                        <p class="premiumMessageContent"><@choicePremiumsDescription></@choicePremiumsDescription></p>
+                    </div>
+                </@choicePremiumsSection>
+        
+                <@choicePricingOptionsSection>
+    <@pricingOption id="4101120">
+            <table class="priceOption">
+                <tr>
+                    <td width="18" class="radioCell"><@pricingOptionSelectionRadioButton /></td>
+                    <td width="180">
+                        <span class="label">Price:</span>
+                        <span class="data"><@pricingOptionCurrencySymbol>US$</@pricingOptionCurrencySymbol><@pricingMatrixPrice>850.00</@pricingMatrixPrice></span>
+                    </td>
+                    
+                </tr>
+            </table>
+
+        <!-- Quantity box -->
+
+        <@fieldErrorsSection>
+            <p class="alertMessage">
+                <@fieldErrors>[-- Errors will be shown here--]</@fieldErrors>
+            </p>
+        </@fieldErrorsSection>
+        <!-- End Quantity box -->
+
+        <!-- Shipping Options ----------------------------------------------------------------- -->
+
+
+
+        <!-- End Shipping Options ----------------------------------------------------------------- -->
+
+    </@pricingOption>
+                </@choicePricingOptionsSection>
+               </div>
+            </div>
+        </label>
+    </@choice>
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+   
+    
+
+
+    
+
+
+    
+
+
+    
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+                     
+
+
+                    </@choicesSection>
+
+
+
+                    <div class="autorenew" style="padding:0; margin:0; text-align:left;">
+
+           
+                       <p><strong>Billing Terms:</strong> Once you accept your Sykes’ Weekly Fortunes subscription, your credit card will be billed $850 immediately. Then, when your subscription is about to expire, we will automatically bill your card for another term at the same rate.</p>
+                        <p>This “auto-renew” feature does not obligate you in any way. If you’d like to end your subscription at any time, all you have to do is reach out and we’ll set your membership to cancel at the end of your term. </p>
+                        <p><strong>Refund Policy:</strong> Your 3-month subscription to <em>Tim Sykes’ Weekly Fortunes</em> is a non-refundable purchase. If you choose to cancel your subscription, it will be set to non-renew at the end of your existing term and no additional charges will be made.</p>
+                    </div>
+                    <!-- END Enter Sales Copy Here -->
+                    <h2 class="form_headline ">Step #2: Enter Your Name & Email</h2>
+
+                    <@hideIfComplete formComponent="order" advancedCrossSellOnly="true">
+                        <@billingAddressSection>
+                            <@enablePrepopulatedFieldsSection>
+                                <@enablePrepopulatedFieldsButton label="Change address" />
+                            </@enablePrepopulatedFieldsSection>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">First Name:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@firstNameInput class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Last Name:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@lastNameInput class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Email:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@emailInput class="form_input" id="__billingEmailAddress__" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <@hideIfPrepopulated renderAs="div">
+                                <div class="field_wrapper">
+                                    <div class="field_name">
+                                        <span class="required">*</span><span class="field_text">Re-Type Email:</span>
+                                    </div>
+                                    <div class="field_input">
+                                        <@emailConfirmInput class="form_input emailConfirm" />
+                                    </div>
+                                    <@fieldErrorsSection>
+                                        <p class="alertMessage">
+                                            <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                        </p>
+                                    </@fieldErrorsSection>
+                                    <div class="clear"></div>
+                                </div>
+                            </@hideIfPrepopulated>
+
+                            <@passwordInputSection renderAs="div">
+                                <div class="field_wrapper">
+                                    <div class="field_name">
+                                        <span class="required">*</span><span class="field_text">Password:</span>
+                                    </div>
+                                    <div class="field_input">
+                                        <@passwordInput class="form_input" />
+                                    </div>
+                                    <@fieldErrorsSection>
+                                        <p class="alertMessage">
+                                            <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                        </p>
+                                    </@fieldErrorsSection>
+                                    <div class="clear"></div>
+                                </div>
+                            </@passwordInputSection>
+
+
+                            <h2 class="form_headline">Step #3: Enter Your Mailing Address</h2>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Address 1:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@address1Input class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required" style="color:#FFF;">*</span><span class="field_text">Address 2:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@address2Input class="form_input" />
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">City:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@cityInput class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <@stateInputSection renderAs="div">
+                                <div class="field_wrapper">
+                                    <div class="field_name">
+                                        <span class="required">*</span><span class="field_text">State:</span>
+                                    </div>
+                                    <div class="field_input">
+                                        <@stateInput class="form_input" />
+                                    </div>
+                                    <@fieldErrorsSection>
+                                        <p class="alertMessage">
+                                            <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                        </p>
+                                    </@fieldErrorsSection>
+                                    <div class="clear"></div>
+                                </div>
+                            </@stateInputSection>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Zip/Postal Code:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@postalCodeInput class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Country:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@countrySelect class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Phone:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@phoneInput class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="hidethis">
+                                <@faxRequiredIndicator><span class="required">*</span></@faxRequiredIndicator>Fax:
+
+                                <@faxInput />
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+
+                                <@termsAndConditionsSection>
+
+                                    <span class="required">*</span>
+                                    <@acceptTermsAndConditionsCheckbox class="check" /> Terms and Conditions: By buying this product you agree to!
+                                    <@fieldErrorsSection>
+                                        <p class="alertMessage">
+                                            <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                        </p>
+                                    </@fieldErrorsSection>
+
+                                </@termsAndConditionsSection>
+
+                                <@hasAgreedToBeContactedByAffiliatesCheckbox class="check" />
+                            </div>
+
+                            <div class="clear"></div>
+
+                            <h5 class="shipping_toggle">
+                                <@shippingAddressToggleSection>
+                                    <@useBillingAsShippingAddressCheckbox class="check" />
+
+                                    <span>Uncheck to ship to a different address.</span>
+                                </@shippingAddressToggleSection>
+                            </h5>
+
+                        </@billingAddressSection>
+
+
+                        <@shippingAddressSection>
+
+                            <h2 class="form_headline">Enter Your Shipping Address</h2>
+
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">First Name:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@firstNameInput class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Last Name:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@lastNameInput class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Address 1:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@address1Input class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required" style="color:#FFF;">*</span><span class="field_text">Address 2:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@address2Input class="form_input" />
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">City:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@cityInput class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <@stateInputSection renderAs="div">
+                                <div class="field_wrapper">
+                                    <div class="field_name">
+                                        <span class="required">*</span><span class="field_text">State:</span>
+                                    </div>
+                                    <div class="field_input">
+                                        <@stateInput class="form_input" />
+                                    </div>
+                                    <@fieldErrorsSection>
+                                        <p class="alertMessage">
+                                            <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                        </p>
+                                    </@fieldErrorsSection>
+                                    <div class="clear"></div>
+                                </div>
+                            </@stateInputSection>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Zip/Postal Code:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@postalCodeInput class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Country:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@countrySelect class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="field_wrapper">
+                                <div class="field_name">
+                                    <span class="required">*</span><span class="field_text">Email:</span>
+                                </div>
+                                <div class="field_input">
+                                    <@emailInput class="form_input" />
+                                </div>
+                                <@fieldErrorsSection>
+                                    <p class="alertMessage">
+                                        <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                    </p>
+                                </@fieldErrorsSection>
+                                <div class="clear"></div>
+                            </div>
+
+                            <@hideIfPrepopulated renderAs="div">
+                                <div class="field_wrapper">
+                                    <div class="field_name">
+                                        <span class="required">*</span><span class="field_text">Re-Type Email:</span>
+                                    </div>
+                                    <div class="field_input">
+                                        <@emailConfirmInput class="form_input" />
+                                    </div>
+                                    <@fieldErrorsSection>
+                                        <p class="alertMessage">
+                                            <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                        </p>
+                                    </@fieldErrorsSection>
+                                    <div class="clear"></div>
+                                </div>
+                            </@hideIfPrepopulated>
+
+                        </@shippingAddressSection>
+
+                    </@hideIfComplete>
+
+                    <@hideIfComplete formComponent="paymentOption" advancedCrossSellOnly="true">
+
+                        <div class="security_stamp">
+                            <@certSiteSeal agency="mcafee" />
+                        </div>
+<!--
+<p style="text-align: left;">*International Customers: Due to lengthy delays and high costs of international shipping, you have been selected to receive an electronic subscription only. All your reports, alerts, and issues will be posted on our website and delivered immediately to your email account on record.</p>
+-->
+<p style="text-align: center;">Your purchase may be subject <br class="hidebr">
+to state sales tax.</p>
+                        <@paymentOptionsSection>
+                            <@paymentOption id="4321540" useSelfContainedForm="false">
+                                <div class="hidethis">
+                                    <@paymentOptionDescription>Secure Credit Card Online</@paymentOptionDescription>
+                                </div>
+
+                                <@savedCreditCardsSection>
+                                    <@savedCreditCardSelect />
+                                </@savedCreditCardsSection>
+
+                                <div class="field_wrapper cc_wrapper">
+                                    <div class="cc_card cc_left">
+                                        <label><div id="cc_visa" class="cc_image"></div><@creditCardRadioButton id="3" /><span class="field_text">Visa</span></label>
+                                    </div>
+                                    <div class="cc_card cc_right">
+                                        <label><div id="cc_mc" class="cc_image"></div><@creditCardRadioButton id="2" /><span class="field_text">MasterCard</span></label>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="field_wrapper cc_wrapper">
+                                    <div class="cc_card cc_left">
+                                        <label><div id="cc_disc" class="cc_image"></div><@creditCardRadioButton id="4" /><span class="field_text">Discover</span></label>
+                                    </div>
+                                    <div class="cc_card cc_right">
+                                        <label><div id="cc_amex" class="cc_image"></div><@creditCardRadioButton id="1" /><span class="field_text">American Express</span></label>
+                                    </div>
+                                    <div class="clear"></div>
+
+                                    <@fieldErrorsSection>
+                                        <p class="alertMessage">
+                                            <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                        </p>
+                                    </@fieldErrorsSection>
+                                </div>
+
+
+                                <div class="field_wrapper" style="margin-top:4em;">
+                                    <div class="field_name">
+                                        <span class="required">*</span><span class="field_text">Card Number</span>
+                                    </div>
+                                    <div class="field_input">
+                                        <@creditCardNumberInput class="dataField form_input" />
+                                    </div>
+                                    <@fieldErrorsSection>
+                                        <p class="alertMessage">
+                                            <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                        </p>
+                                    </@fieldErrorsSection>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="field_wrapper">
+                                    <div class="field_name">
+                                        <span class="required">*</span><span class="field_text">Expiration Month</span>
+                                    </div>
+                                    <div class="field_input">
+                                        <@creditCardExpirationMonthSelect class="dataList form_input exp_select">
+                                            - - list of valid months will be here - -
+                                        </@creditCardExpirationMonthSelect>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="field_wrapper">
+                                    <div class="field_name">
+                                        <span class="required">*</span><span class="field_text">Expiration Year</span>
+                                    </div>
+                                    <div class="field_input">
+                                        <@creditCardExpirationYearSelect class="dataList form_input exp_select">
+                                            - - list of valid years will be here - -
+                                        </@creditCardExpirationYearSelect>
+                                    </div>
+                                    <@fieldErrorsSection>
+                                        <p class="alertMessage">
+                                            <@fieldErrors>Errors will be shown here</@fieldErrors>
+                                        </p>
+                                    </@fieldErrorsSection>
+                                    <div class="clear"></div>
+                                </div>
+
+                              <@creditCardCVVSection>
+<div class="field_wrapper">
+                   <div class="field_name">
+                   <@comment>
+                       <div>(This will not be shown unless "Requires CVV" is checked on the effort)</div>
+                   </@comment>
+                    <span class="field_text">Card security code:</span>
+</div>
+                   <div class="field_input">
+                   <@creditCardCVVInput />
+                   <@fieldErrorsSection>
+                       <p class="alertMessage">
+                           <@fieldErrors>[-- Errors will be shown here--]</@fieldErrors>
+                       </p>
+                   </@fieldErrorsSection>
+</div>
+                   <div class="clear"></div>
+               </div>
+<a id="cvv_link" href="https://www.cvvnumber.com/cvv.html" style="font-size:11px">
+What is my CVV code?</a>
+<div class="cvv_pop">
+ <iframe id="cvv_frame" src="https://www.cvvnumber.com/cvv.html?sdlssfj">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+ <p class="cvv_close" style="cursor:pointer;">Click here to Close the CVV Info</p>
+</div>
+<script>
+$(document).ready(function () {
+   $(".cvv_pop").hide();
+   $("#cvv_link").click(function (e) {
+       e.preventDefault();
+       $("#cvv_frame").attr("src", $(this).attr('href'));
+       $(".cvv_pop").fadeIn('slow');
+   });
+
+   $(".cvv_close").click(function () {
+       $(this).parent().fadeOut("slow");
+   });
+});
+</script>
+</@creditCardCVVSection>
+                                <@saveNewCreditCardSection renderAs="div">
+
+                                    <@saveNewCreditCardCheckbox /> <span style="font-size:1.2em;">Check this box if you'd like to save this credit card for future purchases<br>
+                        
+                            Credit card name:</span>
+
+                                    <@savedCreditCardNameInput class="dataField" />
+                                    <@fieldErrorsSection>
+
+                                        <@fieldErrors>[-- Errors will be shown here--]</@fieldErrors>
+
+                                    </@fieldErrorsSection>
+
+                                </@saveNewCreditCardSection>
+                                <@directDebitDisclaimerSection>
+
+                                    <@directDebitDisclaimer />
+
+                                </@directDebitDisclaimerSection>
+
+                                <div>
+                                    <@paymentOptionSubmitButton effortPaymentOptionId="4321540" label="Continue" class="continue" />
+                                </div>
+
+                            </@paymentOption>
+
+                        </@paymentOptionsSection>
+                    </@hideIfComplete>
+                    <@showIfComplete formComponent="paymentOption" advancedCrossSellOnly="true">
+
+                        <@selectedPaymentOptionSubmitButton label="Continue" class="continue" />
+                    </@showIfComplete>
+
+                    <h2 class="form_headline" style="font-size:1.8em;border:none;">Your Promotion Code is:
+                        <@promoCode>[--Promo codes will be here--]</@promoCode>
+                    </h2>
+
+                </form>
+            </div>
+        </div>
+
+
+
+            <div class="clear" style="padding:2% 0;"></div>
+
+               
+ 
+
+
+
+
+            <script>
+                $(document).ready(function () {
+
+                    var right_column = $('div.right_column'),
+                        right_couumn_hl = {};
+
+                    if (right_column.length == 1) {
+                        right_couumn_hl = right_column.find('h2.form_headline');
+                        right_couumn_hl.eq(0).css('border', 'none');
+                        right_couumn_hl.eq(0).css('padding-top', '0');
+                    }
+
+                });
+            </script>
+
+            <script>
+                (function docReady() {
+                    if (document.readyState === "complete") {
+                        return setTimeout(docReady, 1);
+                    }
+                    if (document) {
+                        var docListen = document.addEventListener ? "addEventListener" : "attachEvent",
+                            docMethod = document.addEventListener ? "DOMContentLoaded" : "onreadystatechange";
+                        if (document.addEventListener) {
+                            document[docListen](docMethod, ready, false);
+                        } else {
+                            document[docListen](docMethod, ready);
+                        }
+                    } else if (window) {
+                        var winListen = window.addEventListener ? "addEventListener" : "attachEvent",
+                            winMethod = window.addEventListener ? "load" : "onload";
+                        if (window.addEventListener) {
+                            window[winListen](winMethod, ready, false);
+                        } else {
+                            window[winListen](winMethod, ready);
+                        }
+                    }
+                })();
+
+                function ready() {
+                    fireTime();
+                }
+
+                // Get Current Time and convert to Epoch
+                function timeNow() {
+                    var today = new Date();
+                    var todayEpoch = today.getTime();
+                    return todayEpoch;
+                }
+                // Set date when timer expires convert to Epoch
+                var endEpoch = timeNow() + minute_timer_end;
+
+                function sec() {
+                    var ts = (endEpoch - timeNow()) / 1000;
+                    var tm = Math.floor(ts / 60);
+                    var dp = (ts / 60) + (-1 * tm);
+                    var rs = Math.floor(60 * dp);
+                    if (rs <= 9)
+                        rs = "0" + rs;
+                    return rs;
+                }
+
+                function min() {
+                    var tm = (endEpoch - timeNow()) / 60000;
+                    var th = Math.floor(tm / 60);
+                    var dp = (tm / 60) + (-1 * th);
+                    var rm = Math.floor(60 * dp);
+                    if (rm <= 9)
+                        rm = "0" + rm;
+                    return rm;
+                }
+
+                function fireTime() {
+                    var nowTime = timeNow();
+                    if (nowTime >= endEpoch) {
+                        document.getElementById("countdown").innerHTML = "Time Has Run Out";
+                        return;
+                    } else {
+                        var sl = sec();
+                        document.getElementById("sec").innerHTML = sl;
+                        var ml = min();
+                        document.getElementById("min").innerHTML = ml;
+                    }
+                    window.setTimeout(
+                        function () {
+                            fireTime();
+                        },
+                        1000
+                    );
+                };
+            </script>
+
+
+            <script>
+                document.addEventListener('retinajs_ready', getiframe, false);
+                function getiframe() {
+
+                    
+                    $.get_iframe_cookie ('afemail', function (results) {
+                        var input = document.getElementById('__billingEmailAddress__');
+                        console.log(results);
+                        var eMail = results;
+                        $('#__billingEmailAddress__').val(eMail).click();
+                    })
+                }// getiframe 
+                $(function () {
+                    window.setInterval("keepSessionAlive()", 1200000);
+                });
+            </script>
+
+            <script>
+var imprint = "PP";
+</script>         <!--=======  FAQ-SCRIPT  ===============-->
+        
+</body>
+</html>
